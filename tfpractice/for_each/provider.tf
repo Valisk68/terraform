@@ -8,4 +8,7 @@ terraform {
   }
 }
 
-
+// Configure the default provider
+provider "aws" {
+  region = "us-east-1"
+}
